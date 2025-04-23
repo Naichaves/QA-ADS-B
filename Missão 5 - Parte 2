@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCase>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://blazedemo.com/index.php]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=fromPort]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>select</command>
+	<target><![CDATA[name=fromPort]]></target>
+	<value><![CDATA[label=São Paolo]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=toPort]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>select</command>
+	<target><![CDATA[name=toPort]]></target>
+	<value><![CDATA[label=Cairo]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//input[@value='Find Flights']]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://blazedemo.com/reserve.php]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//input[@value='Choose This Flight']]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//input[@value='Choose This Flight']]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://blazedemo.com/purchase.php]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=inputName]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=inputName]]></target>
+	<value><![CDATA[Kethelyn]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=address]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//body]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://www.bing.com/search?filters=ufn%3a%22Google+Tradutor%22+sid%3a%22f2f29c28-d913-bc81-d01f-05ae81c0d0e3%22&qs=MB&pq=gogo&sk=CSYN1OS1LS1AS1&sc=13-4&pglt=41&q=google+tradutor&cvid=2c9e595696c14b50b4a80f1ae6920e79&gs_lcrp=EgRlZGdlKgYIBBAuGEAyBggAEEUYOTIGCAEQLhhAMgYIAhAAGEAyBggDEAAYQDIGCAQQLhhAMgYIBRAAGEAyBggGEC4YQDIGCAcQLhhAMgYICBBFGDzSAQgzNTc1ajBqMagCCLACAQ&FORM=ANNTA1&PC=U531]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//div[@id='tta_in']/div[3]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>editContent</command>
+	<target><![CDATA[id=tta_input_ta]]></target>
+	<value><![CDATA[Address]]></value>
+</selenese>
+<selenese>
+	<command>selectWindow</command>
+	<target><![CDATA[win_ser_local]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://blazedemo.com/purchase.php]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=address]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=address]]></target>
+	<value><![CDATA[rua reinaldo da silva ]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//body]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>selectWindow</command>
+	<target><![CDATA[win_ser_local]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://www.bing.com/search?filters=ufn%3a%22Google+Tradutor%22+sid%3a%22f2f29c28-d913-bc81-d01f-05ae81c0d0e3%22&qs=MB&pq=gogo&sk=CSYN1OS1LS1AS1&sc=13-4&pglt=41&q=google+tradutor&cvid=2c9e595696c14b50b4a80f1ae6920e79&gs_lcrp=EgRlZGdlKgYIBBAuGEAyBggAEEUYOTIGCAEQLhhAMgYIAhAAGEAyBggDEAAYQDIGCAQQLhhAMgYIBRAAGEAyBggGEC4YQDIGCAcQLhhAMgYICBBFGDzSAQgzNTc1ajBqMagCCLACAQ&FORM=ANNTA1&PC=U531]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='addresses'])[1]/following::*[name()='svg'][1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>editContent</command>
+	<target><![CDATA[id=tta_input_ta]]></target>
+	<value><![CDATA[City]]></value>
+</selenese>
+<selenese>
+	<command>selectWindow</command>
+	<target><![CDATA[win_ser_local]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://blazedemo.com/purchase.php]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=city]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=city]]></target>
+	<value><![CDATA[Taboão da Serra]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//body]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>selectWindow</command>
+	<target><![CDATA[win_ser_local]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://www.bing.com/search?filters=ufn%3a%22Google+Tradutor%22+sid%3a%22f2f29c28-d913-bc81-d01f-05ae81c0d0e3%22&qs=MB&pq=gogo&sk=CSYN1OS1LS1AS1&sc=13-4&pglt=41&q=google+tradutor&cvid=2c9e595696c14b50b4a80f1ae6920e79&gs_lcrp=EgRlZGdlKgYIBBAuGEAyBggAEEUYOTIGCAEQLhhAMgYIAhAAGEAyBggDEAAYQDIGCAQQLhhAMgYIBRAAGEAyBggGEC4YQDIGCAcQLhhAMgYICBBFGDzSAQgzNTc1ajBqMagCCLACAQ&FORM=ANNTA1&PC=U531]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='city hall'])[1]/following::*[name()='svg'][1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=tta_input_ta]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>editContent</command>
+	<target><![CDATA[id=tta_input_ta]]></target>
+	<value><![CDATA[State]]></value>
+</selenese>
+<selenese>
+	<command>selectWindow</command>
+	<target><![CDATA[win_ser_local]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://blazedemo.com/purchase.php]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=state]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=state]]></target>
+	<value><![CDATA[São Paulo]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::label[1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=address]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=address]]></target>
+	<value><![CDATA[Rua reinaldo da silva ]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=zipCode]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='State'])[1]/following::label[1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//body]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='State'])[1]/following::label[1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>selectWindow</command>
+	<target><![CDATA[win_ser_local]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://www.bing.com/search?filters=ufn%3a%22Google+Tradutor%22+sid%3a%22f2f29c28-d913-bc81-d01f-05ae81c0d0e3%22&qs=MB&pq=gogo&sk=CSYN1OS1LS1AS1&sc=13-4&pglt=41&q=google+tradutor&cvid=2c9e595696c14b50b4a80f1ae6920e79&gs_lcrp=EgRlZGdlKgYIBBAuGEAyBggAEEUYOTIGCAEQLhhAMgYIAhAAGEAyBggDEAAYQDIGCAQQLhhAMgYIBRAAGEAyBggGEC4YQDIGCAcQLhhAMgYICBBFGDzSAQgzNTc1ajBqMagCCLACAQ&FORM=ANNTA1&PC=U531]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='states'])[1]/following::*[name()='svg'][1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>editContent</command>
+	<target><![CDATA[id=tta_input_ta]]></target>
+	<value><![CDATA[Zip Code]]></value>
+</selenese>
+<selenese>
+	<command>selectWindow</command>
+	<target><![CDATA[win_ser_local]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://blazedemo.com/purchase.php]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=zipCode]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=zipCode]]></target>
+	<value><![CDATA[06787350]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=cardType]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='Card Type'])[1]/following::label[1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>selectWindow</command>
+	<target><![CDATA[win_ser_local]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://www.bing.com/search?filters=ufn%3a%22Google+Tradutor%22+sid%3a%22f2f29c28-d913-bc81-d01f-05ae81c0d0e3%22&qs=MB&pq=gogo&sk=CSYN1OS1LS1AS1&sc=13-4&pglt=41&q=google+tradutor&cvid=2c9e595696c14b50b4a80f1ae6920e79&gs_lcrp=EgRlZGdlKgYIBBAuGEAyBggAEEUYOTIGCAEQLhhAMgYIAhAAGEAyBggDEAAYQDIGCAQQLhhAMgYIBRAAGEAyBggGEC4YQDIGCAcQLhhAMgYICBBFGDzSAQgzNTc1ajBqMagCCLACAQ&FORM=ANNTA1&PC=U531]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=tta_clear]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>editContent</command>
+	<target><![CDATA[id=tta_input_ta]]></target>
+	<value><![CDATA[Zip Code]]></value>
+</selenese>
+<selenese>
+	<command>selectWindow</command>
+	<target><![CDATA[win_ser_local]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://blazedemo.com/purchase.php]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='Card Type'])[1]/following::label[1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//body]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>selectWindow</command>
+	<target><![CDATA[win_ser_local]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://www.bing.com/search?filters=ufn%3a%22Google+Tradutor%22+sid%3a%22f2f29c28-d913-bc81-d01f-05ae81c0d0e3%22&qs=MB&pq=gogo&sk=CSYN1OS1LS1AS1&sc=13-4&pglt=41&q=google+tradutor&cvid=2c9e595696c14b50b4a80f1ae6920e79&gs_lcrp=EgRlZGdlKgYIBBAuGEAyBggAEEUYOTIGCAEQLhhAMgYIAhAAGEAyBggDEAAYQDIGCAQQLhhAMgYIBRAAGEAyBggGEC4YQDIGCAcQLhhAMgYICBBFGDzSAQgzNTc1ajBqMagCCLACAQ&FORM=ANNTA1&PC=U531]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='Zip Code'])[1]/following::*[name()='svg'][1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//div[@id='infobubble_6_DFBBA2']/div[2]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=tta_input_ta]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>editContent</command>
+	<target><![CDATA[id=tta_input_ta]]></target>
+	<value><![CDATA[Credit Card Number]]></value>
+</selenese>
+<selenese>
+	<command>selectWindow</command>
+	<target><![CDATA[win_ser_local]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://blazedemo.com/purchase.php]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=creditCardNumber]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=creditCardNumber]]></target>
+	<value><![CDATA[10245897600]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='Credit Card Number'])[1]/following::label[1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>selectWindow</command>
+	<target><![CDATA[win_ser_local]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://www.bing.com/search?filters=ufn%3a%22Google+Tradutor%22+sid%3a%22f2f29c28-d913-bc81-d01f-05ae81c0d0e3%22&qs=MB&pq=gogo&sk=CSYN1OS1LS1AS1&sc=13-4&pglt=41&q=google+tradutor&cvid=2c9e595696c14b50b4a80f1ae6920e79&gs_lcrp=EgRlZGdlKgYIBBAuGEAyBggAEEUYOTIGCAEQLhhAMgYIAhAAGEAyBggDEAAYQDIGCAQQLhhAMgYIBRAAGEAyBggGEC4YQDIGCAcQLhhAMgYICBBFGDzSAQgzNTc1ajBqMagCCLACAQ&FORM=ANNTA1&PC=U531]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='Credit Card Number'])[1]/following::*[name()='svg'][1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=tta_input_ta]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>editContent</command>
+	<target><![CDATA[id=tta_input_ta]]></target>
+	<value><![CDATA[Month]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://blazedemo.com/purchase.php]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=creditCardMonth]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>selectWindow</command>
+	<target><![CDATA[win_ser_local]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=creditCardMonth]]></target>
+	<value><![CDATA[09]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=creditCardYear]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=creditCardYear]]></target>
+	<value><![CDATA[2025]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=nameOnCard]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=nameOnCard]]></target>
+	<value><![CDATA[Kethelyn G Silva ]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='Name on Card'])[1]/following::label[1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>selectWindow</command>
+	<target><![CDATA[win_ser_local]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://www.bing.com/search?filters=ufn%3a%22Google+Tradutor%22+sid%3a%22f2f29c28-d913-bc81-d01f-05ae81c0d0e3%22&qs=MB&pq=gogo&sk=CSYN1OS1LS1AS1&sc=13-4&pglt=41&q=google+tradutor&cvid=2c9e595696c14b50b4a80f1ae6920e79&gs_lcrp=EgRlZGdlKgYIBBAuGEAyBggAEEUYOTIGCAEQLhhAMgYIAhAAGEAyBggDEAAYQDIGCAQQLhhAMgYIBRAAGEAyBggGEC4YQDIGCAcQLhhAMgYICBBFGDzSAQgzNTc1ajBqMagCCLACAQ&FORM=ANNTA1&PC=U531]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='month may'])[1]/following::*[name()='svg'][1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=tta_input_ta]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>editContent</command>
+	<target><![CDATA[id=tta_input_ta]]></target>
+	<value><![CDATA[Remember me]]></value>
+</selenese>
+<selenese>
+	<command>selectWindow</command>
+	<target><![CDATA[win_ser_local]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://blazedemo.com/purchase.php]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='Name on Card'])[1]/following::label[1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//input[@value='Purchase Flight']]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://blazedemo.com/confirmation.php]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='Wed, 23 Apr 2025 23:23:33 +0000'])[1]/following::pre[1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+</TestCase>
